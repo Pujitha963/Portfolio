@@ -2,26 +2,136 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>My Portfolio Website</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Portfolio Website</title>
+	<link rel="stylesheet" type="text/css" href="day3portfolio.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
 <body>
-	<div class="container">
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-		<div class="About">
+	<nav>
+		<p id="portfolio">Portfo<span>lio</span></p>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#About">About Me</a></li>
+			<li><a href="#Skills">Skills</a></li>
+			<li><a href="#Projects">Projects</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<div class="Home" id="Home">
+		<div class="innerContainer">
 			<h1>I am Chiguluri <span>Pujitha</span></h1>
-			<p>Passionate to work as a <span id="role">full stack developer</span></p>
-			<a href="Pujitha's Resume.pdf" download id="cv">Download CV</a>
-		</div>
-		<div class="images">
-			<img src="PassportPhoto.jpeg" class="me">
-		</div>
-	</div>
+		    <p>Passionate to work as a <span id='role'>Full stack developer</span></p>
+		    <a href="Pujitha's Resume.pdf" download id="cv">Download CV</a>
+	    </div></div>
+    <div class="Main">
+    <div class="About" id="About">
+    	<img src="PassportPhoto.jpeg">
+    	<div class="AboutMe">
+    		<h1>About Me</h1>
+    		<h4>Developer</h4>
+			    <p id="about">
+				    I am a full stack web developer. I can provide clean code. I can also make
+				    the website more interactive with web animations. A responsive design 
+				    make your website accessible to all users, regardless of their device.
+			    </p>
+    	</div></div>
+    </div>
+    <div class="Skills" id="Skills">
+    	<h1>Skills</h1>
+    	<div class="softskills">
+    		<h2>Soft Skills</h2>
+    		<div class="allskills">
+    		<div class="skill" style="border: 3px solid orange;">Communication</div>
+    		<div class="skill" style="border: 3px solid violet; margin-left: 20%;">Time Management</div>
+    		<div class="skill" style="border: 3px solid skyblue;">Self-awareness</div>
+    		<div class="skill" style="border: 3px solid silver; margin-left: 20%;">LeaderShip</div>
+    		<div class="skill" style="border: 3px solid lightcoral;">Team Work</div>
+    		<div class="skill" style="border: 3px solid lavender; margin-left: 20%;">Problem Solving</div>
+    		<div class="skill" style="border: 3px solid lightseagreen;">Critical Thinking</div>
+    	</div></div>
+    	<div class="courses">
+    		<h2>Technical Skills</h2>
+    		<div class="courseprogress">
+    			<h4>HTML</h4>
+    		    <div class="course">
+    		    	<div class="skill html">80%</div>
+    		    </div>
+    	    </div>
+    	    <div class="courseprogress">
+    			<h4>C</h4>
+    		    <div class="course">
+    		    	<div class="skill c">80%</div>
+    		    </div>
+    	    </div>
+    		<div class="courseprogress">
+    			<h4>CSS</h4>
+    		    <div class="course">
+    		    	<div class="skill css">60%</div>
+    		    </div>
+    	    </div>
+    	    <div class="courseprogress">
+    			<h4>Java Script</h4>
+    		    <div class="course">
+    		    	<div class="skill js">50%</div>
+    		    </div>
+    	    </div>
+    	    <div class="courseprogress">
+    			<h4>Python</h4>
+    		    <div class="course">
+    		    	<div class="skill python">50%</div>
+    		    </div>
+    	    </div>
+    	    <div class="courseprogress">
+    			<h4>Java</h4>
+    		    <div class="course">
+    		    	<div class="skill java">50%</div>
+    		    </div>
+    	    </div>
+    	    <div class="courseprogress">
+    			<h4>SQL</h4>
+    		    <div class="course">
+    		    	<div class="skill sql">50%</div>
+    		    </div>
+    	    </div>
+    	</div>
+    </div>
+    <div class="Projects" id="Projects">
+    	<h1>Projects</h1>
+    	<h2>Online Quiz</h2>
+    	<h4>Aim: </h4>
+    	<p>To bulid a good quiz website to reduce manual work.</p>
+    	<h4>Description:</h4>
+    	<p>Online Quiz is a Web application. It is very helpful for students who want to take online exam from any place and at any time. It is also helps students to check their knowledge. It is also very helpful for teachers to conduct online exams. It helps to reduce manual work.</p>
+    	<h4>Technologies used:</h4>
+    	<div class="Tech">
+    		<div class="Tech1"><h5>Front-end Technology:</h5></div>
+    	    <div class="Techname"><p>Servlets</p></div>
+    	</div>
+    	<div class="Tech">
+    		<div class="Tech1"><h5>Backend Technology:</h5></div>
+    	    <div class="Techname"><p>JSP</p></div>
+    	</div>
+    	<div class="Tech">
+    		<div class="Tech1"><h5>Database:</h5></div>
+    	    <div class="Techname"><p>SQL server 2008</p></div>
+    	</div>
+    	<div class="quizimages">
+    		<img src="Register.jpeg">
+    		<img src="Dept.jpeg">
+    		<img src="Test.jpeg">
+    		<img src="quiz.jpeg">
+    	</div>
+    </div>
+    <div class="contact">
+    	<h1>Contact Me</h1>
+    	<form>
+    		<label>Name:</label>
+    		<input type="text" name="name"><br><br>
+    		<label>Email:</label>
+    		<input type="email" name="email"><br><br>
+    		<label>Message:</label>
+    		<textarea rows="6"></textarea>
+    	</form>
+    </div>
 </body>
 </html>
